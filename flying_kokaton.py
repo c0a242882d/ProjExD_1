@@ -16,6 +16,7 @@ def main():
     kk_rct=kk_img.get_rect()
     kk_rct.center=300,200
     tmr = 0
+    
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT: return
