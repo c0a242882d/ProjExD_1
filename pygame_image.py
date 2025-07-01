@@ -24,11 +24,12 @@ def main():
         screen.blit(bg_img, [-x, 0])  # 1枚目
         screen.blit(bg_img2, [-x+1600, 0])  # 2枚目
         screen.blit(bg_img, [-x+3200, 0])  # 3枚目
-
+        screen.blit(kk_img, [300, 200])
         screen.blit(kk_img, kk_rct)
         pg.display.update()
+        print(tmr, x)
         tmr += 1        
-        clock.tick(10)
+        clock.tick(200)
 
 
 if __name__ == "__main__":
